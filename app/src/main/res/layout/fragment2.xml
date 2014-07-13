@@ -4,4 +4,8 @@
     style="@style/LL_Fragment"
     android:background="@drawable/android_bot_logo">
 
+    <TextView
+        android:id="@+id/greeting"
+        style="@style/text"
+        android:text=""/>
 </LinearLayout>

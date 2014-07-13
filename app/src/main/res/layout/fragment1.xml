@@ -2,18 +2,21 @@
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/LL_Fragment"
+    android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@drawable/android">
 
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText" />
+        android:id="@+id/editText"
+        android:textSize="@dimen/text_size"
+        android:hint="@string/username"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button"
-        android:layout_gravity="center_horizontal" />
+        android:text="@string/button_text"
+        android:textSize="@dimen/text_size"
+        android:id="@+id/button"/>
 </LinearLayout>

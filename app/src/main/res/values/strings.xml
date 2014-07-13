@@ -5,4 +5,9 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
+    <string name="button_text">Say hi!</string>
+    <string name="empty">Username is empty!</string>
+    <string name="prefix">"Hello, "</string>
+    <string name="suffix">!</string>
+    <string name="username">username</string>
 </resources>
